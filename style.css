@@ -1,12 +1,13 @@
-.nav-bar-item {
-    float: right;
-}
-b {background-color: blue;}
-
-
-
 .nav-item {
     float: right;
     padding: 14px 16px;
     text-decoration: none;
   }
+
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
