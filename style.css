@@ -1,13 +1,54 @@
-.nav-item {
-    float: right;
-    padding: 14px 16px;
-    text-decoration: none;
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(assets/background1.png);
+    background-size: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (min-device-width: 400px) {
+    body {
+      background-image: url(assets/background1.png);
+    }
   }
 
-@media (min-width: 576px) { ... }
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
 
-@media (min-width: 768px) { ... }
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
 
-@media (min-width: 992px) { ... }
+.hp {
+    text-align: center;
+}
 
-@media (min-width: 1200px) { ... }
+.col-md-12 {
+    float: left;;
+}
+
+
+  
+.nav-link {
+    float: right;
+    text-align: right;
+}
+
+
+p {
+    font-size: 16px;
+    float: right;
+}
+
+.foot {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
